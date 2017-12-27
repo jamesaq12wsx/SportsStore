@@ -10,5 +10,7 @@ namespace SportsStore.WebUI.Models
     {
         public IEnumerable<Product> Products { get; set; }
         public PagingInfo PagingInfo { get; set; }
+        //現在正在瀏覽的類別
+        public string CurrentCategory { get; set; }
     }
 }
